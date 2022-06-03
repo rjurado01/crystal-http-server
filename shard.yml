@@ -1,0 +1,19 @@
+name: app
+version: 0.1.0
+
+authors:
+  - rjurado01 <rjurado01@gmail.com>
+
+targets:
+  app:
+    main: src/app.cr
+
+crystal: 1.4.1
+
+license: MIT
+
+dependencies:
+  pg:
+    github: will/crystal-pg
+  kemal:
+    github: kemalcr/kemal
